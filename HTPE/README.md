@@ -1,7 +1,7 @@
 # Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation
 Official Implementation for: Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation
 
-> [**Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation**],            
+> **Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation**,            
 
 
 
@@ -27,7 +27,3 @@ For evaluating on COCO, downlowd checkpoint and run the following command lines:
 ```
 ./tools/dist_test.sh configs/body/2d_kpt_sview_rgb_img/distilpose/coco/htpe_s_v1_stemnet_coco_256x192.py \
 ./checkpoints/htpe_s_v1.pth 8
-```
-
-
-```
