@@ -1,16 +1,8 @@
-# SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation
-Official Implementation for: SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation
+# Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation
+Official Implementation for: Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation
 
-> [**SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation**],            
-> Sichen Chen\*, Yingyi Zhang\*, Siming Huang\*, Ran Yi, Ke Fan, Ruixin Zhang, Peixia Chen, Jun Wang, Shouhong Ding, Lizhuang Ma.  
-> In: Conference on Computer Vision and Pattern Recognition~(CVPR), 2024  
-> *arXiv preprint ([arXiv 2404.03518](https://arxiv.org/abs/2404.03518))*  
-> (\* equal contribution)
+> [**Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation**],            
 
-# Introdoction
-Most of the top-performing transformer-based human pose estimation models are too computation-consuming and storage-demanding to deploy on edge computing platforms. Those transformer-based models that require fewer resources are prone to under-fitting due to their smaller scale and thus perform notably worse than their larger counterparts. Given this conundrum, we introduce ***SDPose***, a new self-distillation method for improving the performance of small transformer-based models. 
-
-<img src="images/pipeline.png" width="1000"/>   
 
 
 # Installation & Quick Start
@@ -37,20 +29,6 @@ For evaluating on COCO, downlowd checkpoint and run the following command lines:
 ./checkpoints/sdpose_s_v1.pth 8
 ```
 
-# Models
-## COCO Keypoint Detection Results
-| Name | Param | GFLOPs | AP | download |
-| ---- | ----- | ------ | -- | -------- |
-|[SDPose-T](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_t_stemnet_coco_256x192.py)| 4.4 | 1.8 | 69.7 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/EWA1nvaSsplDqxDJaLgm2QcBFXA_5O1GWNkfDvMeL2ZlLQ?e=36bqDS) |
-|[SDPose-S-V1](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_s_v1_stemnet_coco_256x192.py)| 6.6 | 2.4 | 72.3 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/Ea4EbwN0OMpBgneBaqrNDzABtYEWlWrRjt02ng27LpCtAg?e=XHoiLw) |
-|[SDPose-S-V2](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_s_v2_stemnet_coco_256x192.py)| 6.2 | 4.7 | 73.5 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/Ea4EbwN0OMpBgneBaqrNDzABtYEWlWrRjt02ng27LpCtAg?e=34AB06) |
-|[SDPose-B](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_b_hr32_coco_256x192.py)| 13.2 | 5.2 | 73.7 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/EUPQTbjUN9BKn9RjkRekphcBHj1hJ8jLVUYLLQOxuGyvww?e=Pkz8Pc) |
-
-# Citations
-Please consider citing our papers in your publications if the project helps your research. BibTeX reference is as follows.
-```BibTeX
-@article{chen2024sdpose,
-  title={SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation},
   author={Chen, Sichen and Zhang, Yingyi and Huang, Siming and Yi, Ran and Fan, Ke and Zhang, Ruixin and Chen, Peixian and Wang, Jun and Ding, Shouhong and Ma, Lizhuang},
   journal={arXiv preprint arXiv:2404.03518},
   year={2024}
