@@ -1,7 +1,7 @@
 # Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation
 Official Implementation for: Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation
 
-> **Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation**,            
+> **Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation**           
 
 
 
