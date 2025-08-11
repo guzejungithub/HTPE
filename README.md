@@ -21,9 +21,9 @@ pip3 install -r requirements.txt
 ```
 For training on COCO, you will need to download the official COCO dataset and modify the dataset path in the model configuration files. After these setups, run the following command lines:
 ```
-./tools/dist_train.sh configs/body/2d_kpt_sview_rgb_img/htpe/coco/htpe_s_v1_stemnet_coco_256x192.py 8
+./tools/dist_train.sh configs/body/2d_kpt_sview_rgb_img/htpe/coco/htpe_s_v1_stemnet_coco_256x192.py 2
 ```
 For evaluating on COCO, downlowd checkpoint and run the following command lines:
 ```
 ./tools/dist_test.sh configs/body/2d_kpt_sview_rgb_img/distilpose/coco/htpe_s_v1_stemnet_coco_256x192.py \
-./checkpoints/htpe_s_v1.pth 8
+./checkpoints/htpe_s_v1.pth 2
