@@ -27,3 +27,14 @@ For evaluating on COCO, downlowd checkpoint and run the following command lines:
 ```
 ./tools/dist_test.sh configs/body/2d_kpt_sview_rgb_img/distilpose/coco/htpe_s_v1_stemnet_coco_256x192.py \
 ./checkpoints/htpe_s_v1.pth 2
+```
+## Pretrained Models
+
+We provide pretrained checkpoints for HTPE on different datasets.  
+Please download the models from the following link and place them in the `./checkpoints/` directory before evaluation:
+
+📥 **Google Drive (COCO pretrained models)**  
+https://drive.google.com/drive/folders/1ttNKwmVw_O0fqKM4SedsKUWgrzumFL78?usp=drive_link
+
+
+
